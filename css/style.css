@@ -373,7 +373,7 @@ body.menu-open .mobile-menu { display: flex; }
   font-family: 'Space Grotesk', sans-serif; font-size: 12px; font-weight: 600; color: var(--accent);
   border: 1px solid oklch(35% 0.14 18 / 0.4); padding: 4px 12px; border-radius: 999px; white-space: nowrap;
 }
-.program-row__desc { font-size: 15.5px; line-height: 1.8; color: var(--text-muted); max-width: 720px; margin: 0 0 28px; }
+.program-row__desc { font-size: 15.5px; line-height: 1.8; color: var(--text-muted); max-width: 720px; margin: 0 0 28px; white-space: pre-wrap; }
 .program-row__cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 32px; }
 .program-row__label {
   font-family: 'Space Grotesk', sans-serif; font-size: 11px; letter-spacing: 0.1em; color: var(--accent);
@@ -444,7 +444,7 @@ body.menu-open .mobile-menu { display: flex; }
   letter-spacing: 0.1em; text-transform: uppercase; color: oklch(80% 0.08 30); margin-bottom: 14px;
 }
 .lab-card__body h3 { font-size: clamp(20px, 2.2vw, 24px); font-weight: 700; margin: 0 0 14px; line-height: 1.35; }
-.lab-card__body p { font-size: 14.5px; line-height: 1.85; color: oklch(85% 0.01 40); margin: 0; }
+.lab-card__body p { font-size: 14.5px; line-height: 1.85; color: oklch(85% 0.01 40); margin: 0; white-space: pre-wrap; }
 
 /* ===== PARTNERS ===== */
 .partners-track {

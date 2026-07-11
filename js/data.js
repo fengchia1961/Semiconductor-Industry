@@ -28,7 +28,7 @@ const SITE_DATA = {
     chain: {
       kicker: 'FULL INDUSTRY CHAIN',
       title: '全產業鏈育才體系',
-      desc: '全國唯一涵蓋半導體全產業鏈的完整育才體系，橫跨設計、元件、製程與設備。',
+      desc: '涵蓋半導體全產業鏈的完整育才體系，橫跨設計、元件、製程與設備。',
       items: [
         { tag: '01', title: 'IC 設計與 EDA', desc: '培育晶片架構設計與電子設計自動化工具應用人才，銜接前段設計端需求。' },
         { tag: '02', title: '元件與整合', desc: '聚焦半導體元件物理特性、材料整合與高階元件開發核心技術。' },
@@ -46,7 +46,7 @@ const SITE_DATA = {
           num: '01',
           title: '半導體探索與臺灣產業體驗短期研習課程',
           duration: '2-4 週，可依美方學校需求調整',
-          desc: '以美國高中生或大學生為對象，設計半導體入門、臺灣半導體產業概況、後段製程、量測與測試基礎等主題，搭配校內實驗室參訪、基礎實作、企業參訪及專業華語課程，協助學生理解半導體產業鏈、臺灣產業優勢與實務應用情境。',
+          desc: '從一顆晶片出發，探索改變世界的臺灣科技力量。\n本計畫專為希望提早接觸科技與工程領域的美國高中生設計，結合半導體入門課程、校園實驗室體驗、基礎實作、企業參訪、專業華語與臺灣文化交流，引導學生認識晶片如何從設計、製造、封裝到測試，逐步走進完整的半導體產業鏈。\n學生將有機會參訪中部科學園區、新竹科學園區，以及欣銓科技、矽品精密、台灣美光、旺宏電子、志聖工業等半導體相關企業，近距離感受臺灣科技產業的創新能量。透過跨國團隊學習與文化體驗，學生不僅能建立半導體基礎知識，更能拓展國際視野，為未來的大學學習與科技職涯開啟更多可能。',
           tracksLabel: '課程主題',
           tracks: ['半導體入門與臺灣產業概況', '後段製程、量測與測試基礎', '校內實驗室參訪與基礎實作', '企業參訪與專業華語課程'],
           keywords: ['半導體課程', '專業華語課程', '文化體驗課程', '企業參訪'],
@@ -59,7 +59,7 @@ const SITE_DATA = {
           num: '02',
           title: '半導體製造及實習計畫',
           duration: '1 學年（1 學期課程＋1 學期企業實習）',
-          desc: '以「共通基礎培育→專業分流深化→企業實習驗證」為主軸，第一學期開設跨領域碩士級核心課程，結合 Virtual Fab 虛擬實作與半導體專業課程，強化製程、封裝與測試等專業能力，第二學期依專長分流媒合企業實習與參訪。',
+          desc: '一年的臺灣學習與產業實戰，培養接軌全球半導體供應鏈的即戰力。\n本計畫以「核心基礎、專業分流、企業實證」為培育主軸。第一學期，學生將修習全英語授課的碩士級半導體課程，並運用 Virtual Fab 虛擬晶圓廠進行模擬實作，建立半導體元件、固態物理及工程材料等核心知識。\n學生可依興趣選擇半導體製程與設備、封裝與測試、智慧製造或晶片設計等專業方向，深入學習薄膜技術、後段製程、可靠度分析、元件失效分析、機器學習與超大型積體電路設計。\n第二學期，學生將依專業背景媒合至台灣美光、矽品精密、欣銓科技、旺宏電子、志聖工業等企業參與實習，在真實產業環境中驗證所學，累積跨文化合作與工程實務經驗，為投入國際半導體產業做好準備。',
           tracksLabel: '專業分流',
           tracks: ['跨域樞紐與核心基礎：高等半導體元件、固態物理、工程材料', '製程與設備分流：現代半導體製程與積體電路技術、薄膜技術', '封裝與測試分流：後段製程技術、可靠性分析、元件失效分析、VLSI 可測性設計', '智慧製造與晶片設計分流：機器學習、VLSI 設計'],
           keywords: ['半導體課程：製程／封裝／測試', '企業參訪', '企業實習'],
@@ -72,7 +72,7 @@ const SITE_DATA = {
           num: '03',
           title: '半導體先進封裝與設備開發',
           duration: '1 學年（1 學期課程＋1 學期企業實習）',
-          desc: '包含 3 個模組的 EMI 半導體相關課程：半導體設備、製程及基本知識；先進製造技術與光電性質應用；先進封裝設備設計開發，第二學期前往合作廠商進行實務學習。',
+          desc: '從先進封裝到設備開發，培養推動下一代晶片製造的跨域工程人才。\n隨著人工智慧與高效能運算快速發展，先進封裝與製程設備已成為半導體產業持續突破的關鍵。本計畫整合半導體製程、封裝技術、自動化、材料工程與模擬分析，培養能夠理解製程需求並參與設備設計與系統整合的跨域人才。\n第一學期以全英語課程進行，內容涵蓋半導體製程設備、封裝與測試、前瞻材料、積層製造、半導體光電性質、先進自動化系統、工程最佳化設計與電腦輔助模擬分析。\n第二學期，學生將前往矽品精密、聯華電子、志聖工業等合作企業實習，參與實際的製造、封裝、自動化或設備開發工作。學生將在真實工程情境中整合機械、材料、電機與製程知識，建立投入先進封裝及半導體設備產業所需的創新與實作能力。',
           tracksLabel: '課程模組',
           tracks: ['設備、製程及基本知識：半導體製程設備、封裝測試', '先進製造與光電應用：前瞻材料與積層製造技術、光電性質', '先進封裝設備設計開發：自動化系統應用、工程最佳設計、電腦輔助模擬分析'],
           keywords: ['半導體課程：製程／封裝／先進設備設計', '專業華語課程', '企業參訪', '企業實習'],
@@ -85,10 +85,10 @@ const SITE_DATA = {
           num: '04',
           title: '機械與電腦輔助工程學系國際半導體碩士專班',
           duration: '學位課程方案',
-          desc: '逢甲大學機械與電腦輔助工程學系國際半導體碩士專班自 115 學年度起正式招生，116 學年度預計新增資訊電機學院「半導體碩士學位學程」及「半導體學院」。目前以短期培訓及短期交換培訓為優先推動項目；學位課程列為中長期規劃，待與美方學校及產業夥伴確認課程銜接、學分採認、實習機制與招生需求後再行發展。',
+          desc: '從短期交流、產業實習到正式學位，打造連結臺灣與美國的半導體人才培育路徑。\n逢甲大學正持續擴充半導體高階人才培育體系。機械與電腦輔助工程學系「國際半導體碩士專班」已自2026學年度開始招生，並規劃於2027學年度成立資訊電機學院「半導體碩士學位學程」及全新的「半導體學院」，建構涵蓋製程、封裝、測試、設備、設計及智慧製造的完整學習環境。\n未來的臺美學位合作將建立在既有短期研習、交換培訓及企業實習的基礎上，並進一步發展課程銜接、學分相互採認、跨國實習、雙聯學位及研究合作機制。\n逢甲大學將結合與普渡大學、聖荷西州立大學、辛辛那提大學等美國夥伴的合作經驗，以及臺灣半導體產業資源，逐步打造串聯「國際學習、產業實作、前瞻研究與全球職涯」的完整人才培育路徑。',
           tracksLabel: '推動進度',
           tracks: ['115 學年度起正式招生', '116 學年度增設半導體碩士學位學程與半導體學院', '現階段優先推動短期培訓與短期交換培訓'],
-          keywords: ['國際半導體碩士專班'],
+          keywords: [],
           targetLabel: '招收對象',
           target: '碩士生與博士生',
           companiesLabel: '合作企業',
@@ -119,16 +119,16 @@ const SITE_DATA = {
         {
           photo: 'assets/fcu-lab-ardentec.png',
           photoLabel: '前瞻半導體測試中心示意圖',
-          partnerLabel: '逢甲大學 X 欣銓科技 Ardentec',
+          partnerLabel: '逢甲大學 X 欣銓科技 ARDENTEC',
           title: '前瞻半導體測試中心',
-          desc: '欣銓科技為晶圓代工龍頭台積電（TSMC）長期信賴的策略測試夥伴，專精於車用電子、5G 通訊及物聯網晶片的關鍵測試。憑藉高精準度與卓越的良率控管，欣銓成為台積電不可或缺的供應鏈後盾。'
+          desc: '欣銓科技為晶圓代工龍頭台積電（TSMC）長期信賴的策略測試夥伴，專精於車用電子、5G 通訊及物聯網晶片的關鍵測試。憑藉高精準度與卓越的良率控管，欣銓成為台積電不可或缺的供應鏈後盾。\n欣銓科技設立於逢甲大學的前瞻半導體測試中心，將提供逢甲大學師生與業界同級的先進量測學習機會。'
         },
         {
           photo: 'assets/fcu-lab-csun.jpg',
           photoLabel: '先進封裝無塵室示意圖',
           partnerLabel: '逢甲大學 X 志聖工業 C SUN',
           title: '先進封裝無塵室',
-          desc: '志聖工業是臺灣頂尖的半導體先進封裝設備供應商，為台積電（TSMC）擴充 AI 晶片產能的關鍵夥伴。志聖專精於熱處理與壓膜技術，全力支援台積電 CoWoS 等先進封裝製程。憑藉卓越的設備可靠度與技術創新，志聖屢次榮獲台積電「優良供應商獎」。'
+          desc: '志聖工業是臺灣頂尖的半導體先進封裝設備供應商，為台積電（TSMC）擴充 AI 晶片產能的關鍵夥伴。志聖專精於熱處理與壓膜技術，全力支援台積電 CoWoS 等先進封裝製程。憑藉卓越的設備可靠度與技術創新，志聖屢次榮獲台積電「優良供應商獎」。\n志聖工業將於逢甲設立產業等級之無塵室，以驗證與逢甲聯合開發之次世代先進封裝設備。'
         }
       ]
     },
@@ -228,8 +228,8 @@ const SITE_DATA = {
     },
     chain: {
       kicker: 'FULL INDUSTRY CHAIN',
-      title: 'Full Industry-Chain Talent Pipeline',
-      desc: "Taiwan's only complete talent system spanning design, devices, process, and equipment.",
+      title: 'Comprehensive Talent Development Across the Semiconductor Value Chain',
+      desc: 'A comprehensive talent development framework spanning the entire semiconductor value chain, from IC design and devices to manufacturing processes and equipment design.',
       items: [
         { tag: '01', title: 'IC Design & EDA', desc: 'Chip architecture design and EDA tool proficiency for front-end design roles.' },
         { tag: '02', title: 'Devices & Integration', desc: 'Core technologies in device physics, materials integration, and advanced device development.' },
@@ -239,15 +239,15 @@ const SITE_DATA = {
     },
     global: {
       kicker: 'GLOBAL COLLABORATION',
-      title: 'Taiwan–U.S. Semiconductor Collaboration',
-      desc: 'A phased strategy — short-term training first, hands-on industry practice, then long-term degree pathways — using flexible 2+2 and 3+1+1 dual-degree frameworks with leading U.S. and Australian universities to form an academia–practice–employment triangle.',
+      title: 'Taiwan–U.S. Semiconductor Industry–Academia Collaboration',
+      desc: 'Adopting a strategy of "starting with short-term training, deepening engagement through hands-on industry–academia projects, and progressing toward long-term degree pathways," we offer flexible 2+2 and 3+1+1 dual-degree programs in partnership with leading universities in the United States and Australia, creating a strong nexus among academic learning, practical experience, and career development.',
       keywordsLabel: 'Keywords',
       programs: [
         {
           num: '01',
           title: 'Short-Term Program on Semiconductor Exploration and Taiwan Industry Experience',
           duration: '2–4 weeks, adjustable based on partner needs',
-          desc: 'Targeting high school and university students from the U.S., this course features an introduction to semiconductors, an overview of Taiwan’s semiconductor industry, back-end processing, and metrology/testing fundamentals, complemented by on-campus lab tours, hands-on training, corporate visits, and Mandarin for Specific Purposes (MSP) courses.',
+          desc: 'Discover the technology behind the chips that are shaping our world.\nDesigned primarily for U.S. high school students, this short-term program offers an engaging introduction to semiconductors and Taiwan’s world-leading technology ecosystem. Students explore how chips are manufactured, packaged, measured, and tested through interactive classes, laboratory experiences, introductory hands-on activities, corporate visits, Mandarin learning, and cultural exchange.\nThe program may include visits to the Central Taiwan Science Park, Hsinchu Science Park, and leading semiconductor companies such as Ardentec, SPIL, Micron Taiwan, Macronix, and C SUN. By learning directly from university faculty, industry professionals, and Taiwanese students, participants gain early exposure to engineering education, expand their global perspective, and discover future opportunities in science, technology, and semiconductor-related fields.',
           tracksLabel: 'Course Topics',
           tracks: ['Semiconductor fundamentals & Taiwan industry overview', 'Back-end process, metrology & testing basics', 'On-campus lab tours & hands-on training', 'Corporate visits & MSP Mandarin courses'],
           keywords: ['Semiconductor Course', 'Mandarin Course', 'Cultural Experience', 'Corporate Visits'],
@@ -260,7 +260,7 @@ const SITE_DATA = {
           num: '02',
           title: 'Semiconductor Manufacturing and Internship Program',
           duration: '1 Academic Year (1 semester coursework + 1 semester internship)',
-          desc: 'Structured around "Foundation Cultivation → Advanced Specialization → Internship Validation." Semester one offers interdisciplinary master’s-level core courses combining Virtual Fab practical simulations with specialized semiconductor courses; semester two matches students to corporate internships and visits by specialty.',
+          desc: 'One year in Taiwan. One powerful step toward a global semiconductor career.\nThis program follows a progressive learning model that connects core knowledge, professional specialization, and industry-based validation. During the first semester, students take interdisciplinary, English-taught semiconductor courses at the graduate level and apply their knowledge through Virtual Fab simulations.\nParticipants may specialize in semiconductor processing and equipment, packaging and testing, smart manufacturing, or integrated circuit design. Courses cover areas such as advanced semiconductor devices, thin-film technology, back-end processing, reliability analysis, device failure analysis, machine learning, and VLSI design.\nIn the second semester, students are matched with industry partners according to their academic background and professional interests. Internship opportunities may be provided by companies such as Micron Taiwan, SPIL, Ardentec, Macronix, and C SUN. By combining academic learning with real-world industrial experience, the program prepares students to contribute effectively to the international semiconductor supply chain.',
           tracksLabel: 'Specialization Tracks',
           tracks: ['Interdisciplinary Hub & Core Foundation: Advanced Semiconductor Devices, Solid State Physics, Engineering Materials', 'Process & Equipment Track: Modern Semiconductor Process & IC Technology, Thin Film Technology', 'Packaging & Testing Track: Back-end Process Technology, Reliability & Failure Analysis, VLSI Design for Testability', 'Smart Manufacturing & IC Design: Machine Learning, VLSI Circuit Design'],
           keywords: ['Process / Packaging / Testing', 'Corporate Visits', 'Internship'],
@@ -273,7 +273,7 @@ const SITE_DATA = {
           num: '03',
           title: 'Advanced Semiconductor Packaging and Equipment Development',
           duration: '1 Academic Year (1 semester coursework + 1 semester internship)',
-          desc: 'Consists of 3 modules of EMI (English as a Medium of Instruction) semiconductor-related courses: equipment, processes and fundamentals; advanced manufacturing and optoelectronic property applications; and advanced packaging equipment design and development. Semester two places students with partner companies for practical training.',
+          desc: 'Develop the technologies and equipment that will power the next generation of semiconductor innovation.\nAs artificial intelligence and high-performance computing continue to advance, semiconductor packaging and manufacturing equipment have become critical drivers of industry growth. This interdisciplinary program integrates semiconductor processing, advanced packaging, automation, materials engineering, optimization, and computer-aided simulation.\nDuring the first semester, students complete English-taught modules covering semiconductor process equipment, packaging and testing, advanced materials, additive manufacturing, semiconductor optoelectronic properties, advanced automation systems, optimal engineering design, and simulation analysis.\nIn the second semester, participants undertake practical training with industry partners such as SPIL, UMC, and C SUN. Through direct involvement in manufacturing, packaging, automation, or equipment development, students learn to integrate mechanical, electrical, materials, and process engineering knowledge. The program prepares graduates to become innovative engineers capable of contributing to advanced packaging and semiconductor equipment development.',
           tracksLabel: 'Course Modules',
           tracks: ['Equipment, Processes & Fundamentals: Process Equipment, Packaging & Testing', 'Advanced Manufacturing & Optoelectronics: Advanced Materials, Additive Manufacturing', 'Packaging Equipment Design: Automation Systems, Optimal Engineering Design, CAE Simulation'],
           keywords: ['Process / Packaging / Equipment Design', 'Mandarin Course', 'Corporate Visits', 'Internship'],
@@ -286,10 +286,10 @@ const SITE_DATA = {
           num: '04',
           title: "International Master's Program in Semiconductors, Department of Mechanical and Computer-Aided Engineering",
           duration: 'Degree Program',
-          desc: "The International Master's Program in Semiconductors under the Department of Mechanical and Computer-Aided Engineering officially began enrollment in AY 2026. In AY 2027, FCU plans to establish a new “Master's Degree Program in Semiconductors” within the College of Information and Electrical Engineering, alongside the new “College of Semiconductor.” Short-term training and exchange programs are currently prioritized; degree programs are positioned as mid-to-long-term initiatives, pending confirmation of course alignment, credit recognition, internship mechanisms, and enrollment demand with U.S. partner universities and industry partners.",
+          desc: "From short-term exploration and industry internships to advanced degrees, Feng Chia University is building a comprehensive semiconductor education pathway connecting Taiwan and the United States.\nFCU continues to expand its graduate-level semiconductor education ecosystem. The International Master’s Program in Semiconductors offered by the Department of Mechanical and Computer-Aided Engineering began enrollment in the 2026 academic year. In the 2027 academic year, the university plans to establish a new Master’s Degree Program in Semiconductors within the College of Information and Electrical Engineering, together with a dedicated College of Semiconductor.\nFuture Taiwan–U.S. degree collaboration will build upon FCU’s short-term training, exchange, and internship programs. Areas under development include curriculum alignment, mutual credit recognition, transnational internships, dual-degree pathways, and collaborative research.\nDrawing on FCU’s relationships with U.S. institutions such as Purdue University, San José State University, and the University of Cincinnati—as well as its close connections with Taiwan’s semiconductor industry—the pathway aims to integrate international education, industry experience, advanced research, and global career development.",
           tracksLabel: 'Program Status',
           tracks: ['Enrollment began AY 2026', "AY 2027: new Semiconductor Master's Program & College of Semiconductor", 'Short-term training currently prioritized'],
-          keywords: ["International Semiconductor Master's Program"],
+          keywords: [],
           targetLabel: 'Target Trainees:',
           target: "Master’s and doctoral students",
           companiesLabel: 'Partners:',
@@ -314,22 +314,22 @@ const SITE_DATA = {
     },
     labs: {
       kicker: 'UPCOMING LABS',
-      title: 'Industry-Academia Labs, Coming Soon',
-      desc: 'FCU is partnering with world-leading semiconductor testing and advanced-packaging equipment companies to co-build industry-grade lab facilities on campus, giving students hands-on experience in real production environments.',
+      title: 'Industry–Academia Joint Laboratory — Opening Soon',
+      desc: 'Feng Chia University is partnering with a global leader in semiconductor testing and advanced packaging equipment to establish an industry-grade laboratory on campus, enabling students to gain hands-on experience in an authentic production-line environment.',
       items: [
         {
           photo: 'assets/fcu-lab-ardentec.png',
           photoLabel: 'Advanced Semiconductor Testing Center (rendering)',
-          partnerLabel: 'FCU X Ardentec',
+          partnerLabel: 'Feng Chia University × Ardentec',
           title: 'Advanced Semiconductor Testing Center',
-          desc: 'Ardentec is a world-leading semiconductor testing service specialist headquartered in Taiwan. As a long-trusted strategic testing partner of foundry leader TSMC, Ardentec is deeply integrated into TSMC’s global ecosystem, specializing in critical testing for automotive electronics, 5G communications, and IoT chips. With high precision and exceptional yield management, Ardentec is an indispensable pillar of TSMC’s supply chain.'
+          desc: 'Ardentec is a long-standing and trusted strategic testing partner of TSMC, the world’s leading semiconductor foundry. The company specializes in mission-critical testing for automotive electronics, 5G communications, and IoT chips. With its high-precision testing capabilities and outstanding yield management, Ardentec plays a vital role in supporting TSMC’s supply chain.\n The Advanced Semiconductor Testing Center established by Ardentec at Feng Chia University will provide faculty members and students with access to advanced measurement and testing facilities comparable to those used in industry.'
         },
         {
           photo: 'assets/fcu-lab-csun.jpg',
           photoLabel: 'Advanced Packaging Cleanroom (rendering)',
-          partnerLabel: 'FCU X C SUN MFG.',
+          partnerLabel: 'Feng Chia University × C SUN',
           title: 'Advanced Packaging Cleanroom',
-          desc: 'C SUN is Taiwan’s top supplier of advanced semiconductor packaging equipment and a key partner in TSMC’s AI-chip capacity expansion. Specializing in thermal processing and lamination technology, C SUN fully supports TSMC’s advanced packaging processes such as CoWoS. For its outstanding equipment reliability and technical innovation, C SUN has repeatedly won TSMC’s “Excellent Supplier Award.”'
+          desc: 'C SUN is one of Taiwan’s leading suppliers of advanced semiconductor packaging equipment and a key partner in supporting TSMC’s expansion of AI chip production capacity. The company specializes in thermal processing and lamination technologies, providing critical equipment solutions for advanced packaging processes such as CoWoS.\nWith outstanding equipment reliability and continuous technological innovation, C SUN has received TSMC’s Excellent Supplier Award on multiple occasions.\nC SUN will establish an industry-grade cleanroom at Feng Chia University to validate next-generation advanced packaging equipment jointly developed with the University.'
         }
       ]
     },
