@@ -395,18 +395,27 @@ body.menu-open .mobile-menu { display: flex; }
 }
 
 .uni-block { border-top: 1px solid var(--border); padding-top: 48px; margin-top: 56px; }
-.uni-block__label { font-size: clamp(20px, 2.4vw, 26px); font-weight: 900; margin: 0 0 24px; line-height: 1.3; }
-.uni-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px; }
+.uni-block .section-head { margin-bottom: 24px; }
+.uni-block__label { font-size: clamp(20px, 2.4vw, 26px); font-weight: 900; margin: 0; line-height: 1.3; }
+.uni-track {
+  display: flex; gap: 14px; overflow-x: auto; scroll-snap-type: x mandatory;
+  margin: 0 -4px; scroll-behavior: smooth; -webkit-overflow-scrolling: touch;
+}
 .uni-card {
   position: relative; background: var(--bg); color: var(--text); border: 1px solid var(--border);
-  display: flex; flex-direction: column; overflow: hidden;
+  display: flex; align-items: center; gap: 16px; padding: 14px 18px; overflow: hidden;
+  flex: 0 0 clamp(260px, 80vw, 320px); min-width: 0; scroll-snap-align: start;
 }
 .uni-card:hover { border-color: var(--accent); }
-.uni-card__logo { aspect-ratio: 16/9; overflow: hidden; display: flex; align-items: center; justify-content: center; background: oklch(100% 0 0); padding: 16px; }
+.uni-card__logo {
+  width: 88px; height: 52px; flex-shrink: 0; overflow: hidden; display: flex; align-items: center;
+  justify-content: center; background: oklch(100% 0 0); border: 1px solid var(--border-soft-2); padding: 6px;
+}
 .uni-card__logo img { max-width: 100%; max-height: 100%; object-fit: contain; display: block; }
-.uni-card__foot { padding: 14px 20px 18px; display: flex; align-items: center; justify-content: space-between; gap: 10px; border-top: 1px solid var(--border-soft-2); }
-.uni-card__loc { font-size: 12.5px; color: var(--text-muted-2); }
-.uni-card__arrow { font-family: 'Space Grotesk', sans-serif; font-size: 16px; color: var(--accent); flex-shrink: 0; }
+.uni-card__info { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.uni-card__name { font-size: 14.5px; font-weight: 700; line-height: 1.3; }
+.uni-card__loc { font-size: 12px; color: var(--text-muted-2); }
+.uni-card__arrow { font-family: 'Space Grotesk', sans-serif; font-size: 16px; color: var(--accent); flex-shrink: 0; margin-left: auto; }
 
 /* ===== LABS ===== */
 .dark-grid-bg {

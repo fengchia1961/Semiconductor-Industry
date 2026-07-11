@@ -99,10 +99,11 @@
     $('uni-grid').innerHTML = t.global.universities.map(u => `
       <a href="${escapeHtml(u.url)}" target="_blank" rel="noopener" class="uni-card">
         <div class="uni-card__logo"><img src="${escapeHtml(u.logo)}" alt="${escapeHtml(u.name)}"></div>
-        <div class="uni-card__foot">
+        <div class="uni-card__info">
+          <span class="uni-card__name">${escapeHtml(u.name)}</span>
           <span class="uni-card__loc">${escapeHtml(u.loc)}</span>
-          <span class="uni-card__arrow">↗</span>
         </div>
+        <span class="uni-card__arrow">↗</span>
       </a>
     `).join('');
   }
@@ -174,7 +175,7 @@
     link.append(document.createTextNode(t.highlight.linkLabel + ' '));
     const arrow = document.createElement('span');
     arrow.className = 'mono';
-    arrow.textContent = '→';
+    arrow.textContent = '↗';
     link.append(arrow);
     link.href = t.highlight.linkUrl;
   }
@@ -184,7 +185,14 @@
     $('contact-address').textContent = t.contact.address;
     $('contact-phone').textContent = t.contact.phone;
     $('contact-email').textContent = t.contact.email;
-    $('contact-site').textContent = t.contact.site;
+    const siteLink = $('contact-site');
+    siteLink.textContent = '';
+    siteLink.append(document.createTextNode(t.contact.site));
+    const siteArrow = document.createElement('span');
+    siteArrow.className = 'mono';
+    siteArrow.style.fontSize = '12px';
+    siteArrow.textContent = '↗';
+    siteLink.append(siteArrow);
     $('contact-copyright').textContent = t.contact.copyright;
   }
 
@@ -234,6 +242,9 @@
 
     $('partners-scroll-left').addEventListener('click', () => $('partners-track').scrollBy({ left: -360, behavior: 'smooth' }));
     $('partners-scroll-right').addEventListener('click', () => $('partners-track').scrollBy({ left: 360, behavior: 'smooth' }));
+
+    $('uni-scroll-left').addEventListener('click', () => $('uni-grid').scrollBy({ left: -320, behavior: 'smooth' }));
+    $('uni-scroll-right').addEventListener('click', () => $('uni-grid').scrollBy({ left: 320, behavior: 'smooth' }));
   }
 
   bindStatic();

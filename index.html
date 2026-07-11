@@ -110,8 +110,14 @@
     <div id="programs-container"></div>
 
     <div class="uni-block">
-      <h3 class="uni-block__label" id="uni-label"></h3>
-      <div class="uni-grid" id="uni-grid"></div>
+      <div class="section-head">
+        <h3 class="uni-block__label" id="uni-label"></h3>
+        <div class="scroll-btns">
+          <button type="button" class="scroll-btn" id="uni-scroll-left" aria-label="scroll left">←</button>
+          <button type="button" class="scroll-btn" id="uni-scroll-right" aria-label="scroll right">→</button>
+        </div>
+      </div>
+      <div class="uni-track scroll-hide" id="uni-grid"></div>
     </div>
   </section>
 
@@ -176,7 +182,7 @@
     <div id="contact-address"></div>
     <div id="contact-phone"></div>
     <div id="contact-email"></div>
-    <a href="https://www.fcu.edu.tw/" class="footer__site" id="contact-site"></a>
+    <a href="https://www.fcu.edu.tw/" target="_blank" rel="noopener" class="footer__site" id="contact-site"></a>
   </div>
   <div class="footer__bottom" id="contact-copyright"></div>
 </footer>
